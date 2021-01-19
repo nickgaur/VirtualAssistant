@@ -1,5 +1,5 @@
 
-# DANI
+# DANI - THE PERSONAL VIRTUAL ASSISTANT
 
 import pyttsx3
 import speech_recognition as sr
@@ -12,7 +12,6 @@ import time
 
 engine = pyttsx3.init("sapi5")
 voices = engine.getProperty("voices")
-print(voices[0].id)
 engine.setProperty("voice", voices[1].id)
 
 # IMPLEMENTING THE Speak FUNCTION
@@ -58,7 +57,7 @@ def WishMe():
 
     else:
         speak("Good Evening")
-    speak("Hello Sir, how can i help you")
+    speak("Hello Sir, I am Dani, how can i help you")
 
 
 # def sendEmail(to, content):
