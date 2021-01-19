@@ -1,3 +1,6 @@
+
+# DANI
+
 import pyttsx3
 import speech_recognition as sr
 import datetime
@@ -5,7 +8,7 @@ import wikipedia
 import webbrowser
 import os
 import time
-import smtplib
+# import smtplib
 
 engine = pyttsx3.init("sapi5")
 voices = engine.getProperty("voices")
@@ -55,7 +58,7 @@ def WishMe():
 
     else:
         speak("Good Evening")
-    speak("Hello Sir, i am prishi gaur, how can i help you")
+    speak("Hello Sir, how can i help you")
 
 
 # def sendEmail(to, content):
