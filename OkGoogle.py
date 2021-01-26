@@ -66,8 +66,7 @@ def WishMe():
 #     server.starttls()
 #     with open("password.txt", "r") as file:
 #         password = file.read()
-#         print(password)
-#         server.login('nihkilgaur581@gmail.com', password)
+#         server.login('nikhilgaur581@gmail.com', password)
 #         server.sendmail('nikhilgaur581@gmail.com', to, content)
 #     server.close()
 
