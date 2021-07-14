@@ -1,5 +1,5 @@
 
-# DANI - THE PERSONAL VIRTUAL ASSISTANT
+# CHANDLER - THE PERSONAL VIRTUAL ASSISTANT
 
 import pyttsx3
 import speech_recognition as sr
@@ -57,7 +57,7 @@ def WishMe():
 
     else:
         speak("Good Evening")
-    speak("Hello Sir, I am Dani, how can i help you")
+    speak("Hello Sir, I am Chandler, how can i help you")
 
 
 # def sendEmail(to, content):
